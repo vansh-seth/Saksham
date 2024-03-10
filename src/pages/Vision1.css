@@ -1,0 +1,143 @@
+
+.outer-div{
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 700px;
+gap:15%;
+background-size: 100%;
+background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.8)),url("https://media.istockphoto.com/id/1292075242/photo/blind-man-crossing-a-street.jpg?s=612x612&w=0&k=20&c=IMBJGD1H63i5x7YlnU5dC15s6DKRRo7LPNZQ8YfkjV0=");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.outer-div-1{
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 700px;
+gap:15%;
+background-size: 100%;
+background:linear-gradient(rgb(0,0,0,0.8),rgb(0,0,0,0.9)),url("https://employsure.co.nz/wp-content/uploads/2017/10/201124-Disability-In-The-Workplace.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+;
+}
+.outer-div-1 .inner-box-left h2,.outer-div-1 .inner-box-left p{
+    background-color: transparent !important;
+    max-width: 1000px;
+    text-align: center;
+    padding: 8px;
+}
+.inner-box-right p{
+    font-size: 2rem;
+    padding-inline: 50px;
+    position: relative;
+    right: 40px;
+    background-color: transparent;
+}
+.inner-box-right{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: #; */
+}
+
+
+.button-div{
+    background-color: transparent;
+    display: flex;
+    gap:15px;
+    color:#00000023;
+}
+
+.inner-box-left h1{
+    
+    font-size: 3rem;
+    color: white;
+    background-color: transparent;
+    background: none;
+}
+button{
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.outer-box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outer-box-1 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.outer-box-1 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.features-card-vision {
+    flex-direction: column;
+    gap: 10px;
+    width:300px;
+    text-align: center;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.features-card-vision img{
+    height: 150px;
+    background: #fff;
+
+    
+}
+.features-card-vision img:first-child{
+    width: 50%;
+}
+
+
+.container-vision {
+    padding: 50px;
+    display: flex;
+    flex-direction: row !important;
+    gap:80px;
+    
+}
+.flex-vision{
+    display: flex;
+    flex-direction: row;
+}
+.flex-vision img{
+    width: 100px;
+}
+.trans-vision{
+    display: flex;
+    flex-direction: row !important;
+    gap:30px;
+}
+.trans-vision .features-card-vision{
+    
+    border:none !important;
+    height: 225px;
+}

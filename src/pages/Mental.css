@@ -1,0 +1,148 @@
+.outer-div{
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 700px;
+gap:15%;
+background-size: 100%;
+background:linear-gradient(rgb(0,0,0,0.6),rgb(0,0,0,0.8)),url("https://media.istockphoto.com/id/1292075242/photo/blind-man-crossing-a-street.jpg?s=612x612&w=0&k=20&c=IMBJGD1H63i5x7YlnU5dC15s6DKRRo7LPNZQ8YfkjV0=");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.outer-div-2{
+    display:flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 1000px;
+gap:15%;
+background-size: 100%;
+background:linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)),url("https://media.istockphoto.com/id/924925656/photo/thoughtful-stressed-young-man-with-a-mess-in-his-head.webp?b=1&s=170667a&w=0&k=20&c=t045BPrrFnkUeiD_rZdVy7RjPOuq13JBg82EDiTNWF4=");
+background-repeat: no-repeat;
+background-size: cover;
+;
+}
+.outer-div-2 .inner-box-left h2,.outer-div-2 .inner-box-left p{
+    background-color: transparent !important;
+    max-width: 700px;
+    text-align: center;
+    padding: 8px;
+}
+.inner-box-right p{
+    font-size: 2rem;
+    padding-inline: 50px;
+    position: relative;
+    right: 40px;
+    background-color: transparent;
+}
+.inner-box-right{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* color: #; */
+}
+
+
+.button-div{
+    background-color: transparent;
+    display: flex;
+    gap:15px;
+    color:#00000023;
+}
+
+.inner-box-left h1{
+    
+    font-size: 3rem;
+    color: white;
+    background-color: transparent;
+    background: none;
+}
+button{
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    padding: 10px;
+}
+
+.outer-box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outer-box-2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+    
+}
+
+.outer-box-2 p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.features-card-mental {
+    flex-direction: column;
+    gap: 10px;
+    width:300px;
+    text-align: center;
+    height: 450px;
+    border: 2px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+.features-card-mental img{
+    height: 150px;
+    background: #fff;
+
+    
+}
+.features-card-mental img:first-child{
+    width: 50%;
+}
+
+
+.container-mental {
+    padding: 50px;
+    display: flex;
+    flex-direction: row !important;
+    gap:80px;
+    
+}
+.flex-mental{
+    display: flex;
+    flex-direction: row;
+}
+.flex-mental img{
+    width: 100px;
+}
+.trans-mental{
+    display: flex;
+    flex-direction: row !important;
+    gap:30px;
+}
+.trans-mental .features-card-mental{
+    
+    border:none !important;
+    height: 225px;
+}
+.trans-vision-1{
+    display: flex;
+    flex-direction: row !important;
+    gap:30px;
+}
