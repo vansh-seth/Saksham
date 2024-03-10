@@ -54,4 +54,8 @@ We welcome contributions from developers, designers, and accessibility advocates
 
 ![image](https://github.com/vansh-seth/Saksham/assets/111755254/73dae1d0-113f-4a1e-90de-856af9ec6406)
 
+![image](https://github.com/vansh-seth/Saksham/assets/111755254/b9e5edb9-7107-4260-bb47-b57263a72228)
+
+![image](https://github.com/vansh-seth/Saksham/assets/111755254/13e7cecd-4d7e-47e7-b57d-52b748354608)
+
 
