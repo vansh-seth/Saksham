@@ -1,7 +1,7 @@
 import { GoogleMap, InfoWindow, Marker } from "@react-google-maps/api";
 import custommarker from "./output-onlinepngtools (1).png";
 import { useEffect, useRef, useState } from "react";
-import "./Maps.css";
+import "./Map.css";
 import Navbar from "./Navbar";
 
 const Map = (props) => {
@@ -92,18 +92,21 @@ const Map = (props) => {
   return (
     
     isLoaded && (
-      <>
-      
-    
+      < >
+      <Navbar />
         <GoogleMap
           mapContainerStyle={containerStyle}
           center={center}
           zoom={10}
           onLoad={onMapLoad}
-        >
+          style={{ backgroundColor: 'transparent' }}
+          >
           {markers.map((marker) => {
             return (
-              <div key={marker.name}>
+              
+              <div 
+              id="Map"
+              key={marker.name}>
                 <Marker
                   position={marker.location}
                   options={{
@@ -123,6 +126,7 @@ const Map = (props) => {
               options={{
                 pixelOffset: new window.google.maps.Size(0, -40),
               }}
+              style={{ backgroundColor: 'transparent' }}
             >
               <div>
                 <h1>location -{selectedMarker.name}</h1>
