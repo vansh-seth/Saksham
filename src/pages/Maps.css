@@ -4,7 +4,9 @@
 .gm-style .gm-style-iw-t::after {
   background: red;
 }
-
+*{
+  background-color: transparent;
+}
 /* background: rgba(233, 223, 223, 0.5); */
 
 .gm-style .gm-style-iw-tc::after {
